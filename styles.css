@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about p {
+    font-size: 1.25rem;
+}
+
+/* Projects Section */
+#projects .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #1e2a47;
+}
+
+.project-card img {
+    border-bottom: 2px solid #fff;
+}
+
+.project-card .card-body {
+    background-color: #1e2a47;
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover .card-body {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 1rem;
+}
