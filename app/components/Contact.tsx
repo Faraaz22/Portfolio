@@ -8,7 +8,7 @@ import emailjs from 'emailjs-com'
 import { useRef, useState } from 'react'
 
 export default function Contact() {
-  const formRef = useRef(null)
+  const formRef = useRef<HTMLFormElement>(null)
   const [sending, setSending] = useState(false)
 
   const sendEmail = (e: React.FormEvent) => {
